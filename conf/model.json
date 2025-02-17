@@ -1,0 +1,8 @@
+{
+    "model_name": "deepseek",
+    "url": "<your_deepseek_api_url>",
+    "token": "<your_deepseek_api_token>",
+    "input": {},
+    "response_mode": "blocking",
+    "user": "admin"
+}
