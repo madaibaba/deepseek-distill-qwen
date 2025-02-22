@@ -253,3 +253,4 @@ def compare_models(model_name_1, model_name_2, prompt="The quick brown fox"):
 # Call function to compare two models
 # Example usage with local models
 compare_models('./model/Qwen2.5-1.5B', './model/deepseek-distill-qwen2.5-1.5b', prompt="The quick brown fox jumped over the lazy dog.")
+

@@ -108,6 +108,19 @@ This script compares two Qwen models (original vs distilled) based on several me
 compare_models('original_qwen_model_path', 'distilled_qwen_model_path')
 ```
 
+| Metric                    | Model 1 (Original) | Model 2 (Ollama Distilled) | Model 2 (Self Distilled) |
+|---------------------------|---------------------|----------------------------|--------------------------|
+| **Inference Time (s)**     | 52.223              | 0.27                       | 0.809                    |
+| **CPU Memory Usage (MB)**  | 0.01                | 0                          | 0                        |
+| **GPU Memory Usage (MB)**  | 0.02                | 0                          | 0                        |
+| **Perplexity**             | 5.72                | 40.76                      | 11.45                    |
+| **BLEU Score**             | 0.69                | 45.63                      | 19.38                    |
+| **ROUGE-1 Score**          | 0.02                | 0.67                       | 0.4                      |
+| **ROUGE-2 Score**          | 0.01                | 0.64                       | 0.37                     |
+| **ROUGE-L Score**          | 0.02                | 0.67                       | 0.4                      |
+| **Model Size (M Parameters)** | 1543.71           | 1777.09                    | 1543.3                   |
+| **Throughput (samples/sec)** | 0.02               | 3.99                       | 1.22                     |
+
 ---
 
 ## Installation & Usage
